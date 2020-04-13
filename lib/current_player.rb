@@ -10,8 +10,8 @@ end
 
 def current_player(board_array)
   if turn_count.even
-    index == "X"
+    return "X"
   elsif turn_count.odd
-    index == "O"
+    return "O"
   end
 end
