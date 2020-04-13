@@ -1,10 +1,9 @@
-board = [" ", " ", " "," ", " ", " "," ", " ", " "]
-def turn_count(board}
-  counter = 1
-  board_array.each do |space|
+def turn_count(board)
+  turns = 0
+  board.each do |space|
     if space == "X" || space == "O"
-      counter += 1
+      turns += 1
     end
-end
-return counter
+  end
+  return turns
 end
