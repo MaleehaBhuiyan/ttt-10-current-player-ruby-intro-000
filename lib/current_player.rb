@@ -1,5 +1,5 @@
-board_array = [" ", " ", " "," ", " ", " "," ", " ", " "]
-def turn_count(board_array}
+board = [" ", " ", " "," ", " ", " "," ", " ", " "]
+def turn_count(board}
   counter = 1
   board_array.each do |index|
     if index == "X" || index == "O"
